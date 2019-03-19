@@ -1,0 +1,32 @@
+﻿pop / stmp
+
+用于启用SSL/TLS的SMTP发送实现
+
+username：
+password：
+
+stmp address：
+port：465
+starttls：on/off
+
+
+“message” --》 stmp --》 mailbox
+
+MailSender -> sender（username）
+.config(xxx)
+
+
+git checkout development//创建分支
+git pull origin master:master//把远端master pull到本地master
+git merge master//把master合并到dev
+git merge mybranch//把开发的分支合并到dev
+make test//测试
+make push origin development:development//push
+
+
+mybranch 定时同步master
+
+development<--master/mybranch
+
+git checkout master
+git checkout -b development
